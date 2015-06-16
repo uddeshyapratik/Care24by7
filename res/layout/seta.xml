@@ -1,0 +1,113 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+<RelativeLayout
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="479dp"
+    android:background="#009acd"
+    tools:context="com.example.wtr.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="20dp"
+        android:text="Select the size of the glass"
+         android:textColor="#FF0000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/textView2"
+        android:background="#FFFFFF"
+        android:text="Size"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:text="Select the alaram start time"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="230dp"
+         android:background="#FFFFFF"
+        android:text="Time"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="59dp"
+        android:text="Select Quantity of water"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="16dp"
+        android:text="Select the time gap b/w water glass"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="#FFFFFF"
+        android:text="Quantity"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_below="@+id/textView4"
+         android:background="#FFFFFF"
+        android:text="G-Time"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="16dp"
+        android:text="Done"
+        android:background="#FFFFFF" 
+          android:textColor="#FF0000"/>
+
+</RelativeLayout>
+
+</ScrollView>

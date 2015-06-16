@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.care_247"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<uses-permission android:name="android.permission.VIBRATE"/>
+ <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.care_247.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        <activity android:name="com.example.care_247.Home"></activity>
+        
+        <activity android:name="com.example.care_247.Smoke"></activity>
+        <activity android:name="com.example.care_247.Calorie"></activity>
+        <activity android:name="com.example.care_247.Stress"></activity>
+        <activity android:name="com.example.care_247.BMR"></activity>
+        <activity android:name="com.example.care_247.BMR2"></activity>
+        <activity android:name="com.example.care_247.BMI"></activity>
+        <activity android:name="com.example.care_247.BMI2"></activity>
+        <activity android:name="com.example.care_247.Diabetes"></activity>
+        <activity android:name="com.example.care_247.Symptoms"></activity>
+        <activity android:name="com.example.care_247.Faq"></activity>
+        <activity android:name="com.example.care_247.Detail"></activity>
+        <activity android:name="com.example.care_247.Madd"></activity>
+        <activity android:name="com.example.care_247.Malarm"></activity>
+        <activity android:name="com.example.care_247.Rang"></activity>
+         <activity android:name="com.example.care_247.Seta"></activity>
+         <activity android:name="com.example.care_247.W2250"></activity>
+         <activity android:name="com.example.care_247.W2500"></activity>
+         <activity android:name="com.example.care_247.Walarm"></activity>
+         <activity android:name="com.example.care_247.Doctor"></activity>
+         <activity android:name="com.example.care_247.Exercise"></activity>
+       <activity  android:name="com.example.care_247.PhotoActivity"></activity>
+       <activity android:name="com.example.care_247.Homerem"></activity>
+       <activity android:name="com.example.care_247.Mess"></activity>
+       <activity android:name="com.example.care_247.heart"></activity>
+     
+        
+      
+        
+    </application>
+
+</manifest>

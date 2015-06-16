@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:background="#FF4356"
+   
+    tools:context="com.example.malarm.MainActivity$PlaceholderFragment" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/button2"
+        android:text="ADD" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:text="Hear you can add your mdicine alarm and you can see your previous medicine alarms"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
+</ScrollView>
